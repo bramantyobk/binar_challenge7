@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "email": "ch@gmail.com",
+        "password": "123456"
+    },
+    {
+        "id": 2,
+        "email": "ch3@gmail.com",
+        "password": "123456"
+    },
+    {
+        "id": 3,
+        "email": "ch5@gmail.com",
+        "password": "123456"
+    },
+    {
+        "id": 4,
+        "email": "aku@gmail.com",
+        "password": "123456"
+    },
+    {
+        "id": 5,
+        "email": "che@gmail.com",
+        "password": "123456"
+    },
+    {
+        "id": 6,
+        "email": "che@gmail.com",
+        "password": "123456"
+    },
+    {
+        "id": 7,
+        "email": "galaxymediaofficial@gmail.com",
+        "password": "123456"
+    }
+]

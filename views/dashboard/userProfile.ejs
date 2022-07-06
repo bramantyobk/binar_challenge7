@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<%- include('../partials/head') %>
+		<link rel="stylesheet" href="style-dashboard.css" />
+		<title>Profile</title>
+	</head>
+
+	<body>
+		<%- include('../partials/header-dashboard') %>
+
+		<div class="container-fluid">
+			<div class="row">
+				<nav
+					id="sidebarMenu"
+					class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse"
+				>
+					<div class="position-sticky pt-3">
+						<ul class="nav flex-column">
+							<li class="nav-item">
+								<a class="nav-link active" href="/user-dashboard">
+									Dashboard
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/user-profile"> Profile </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/create-room"> Create Room </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/join-room"> Join Room </a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+
+				<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+					<div
+						class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom"
+					>
+						<h2 class="dashboard-title">Profile Details</h2>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-sm table-dashboard">
+							<tbody>
+								<tr>
+									<td>First Name</td>
+									<td>:</td>
+									<td>Bramantyo</td>
+								</tr>
+								<tr>
+									<td>Last Name</td>
+									<td>:</td>
+									<td>Kusumo</td>
+								</tr>
+								<tr>
+									<td>Email</td>
+									<td>:</td>
+									<td>bbk@mail.com</td>
+								</tr>
+								<tr>
+									<td>username</td>
+									<td>:</td>
+									<td>bramantyobk</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="form-group">
+							<div class="mt-4">
+								<button type="submit" class="btn btn-primary">
+									<a
+										href="/edit-profile"
+										style="text-decoration: none; color: white"
+										>Edit Profile</a
+									>
+								</button>
+							</div>
+						</div>
+					</div>
+				</main>
+			</div>
+		</div>
+
+		<%- include('../partials/footer-dashboard') %>
+	</body>
+</html>

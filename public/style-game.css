@@ -1,0 +1,155 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #9C835F;
+    min-width: 600px;
+}
+
+
+header {
+    display: flex;
+    height: 72px;
+    align-items: center;
+}
+
+#back-nav {
+    font-size: 60px;
+    font-weight: bold;
+    color: #724C21;
+    margin-left: 10px;
+    margin-top: -20px;
+    text-decoration: none;
+    align-items: center;
+}
+
+#logo {
+    margin-left: 10px;
+    height: 90%;
+    width: auto;
+}
+
+#page-title {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    color: #F9B23D;
+    margin-left: 10px;
+}
+
+.container {
+    margin-top: 2vh;
+    width: 60vw;
+}
+
+.player {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.score-player {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.row {
+    margin-top: 15px;
+}
+
+.resized-img {
+    width: 100px;
+    height: auto;
+}
+
+.bg-select {
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    /* width: 120px;
+    height: 100px; */
+}
+
+.center-item {
+    justify-content: center;
+    align-items: center;
+}
+
+#versus {
+    font-size: 60px;
+    color: red;
+    font-weight: bold;
+}
+
+#result-mobile {
+    display: none;
+}
+
+.result-style {
+    text-transform: uppercase;
+    background-color: #4C9654;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    transform: rotate(-30deg);
+}
+
+#refresh {
+    text-align: center;
+}
+
+
+@media (max-width: 830px) {
+    .player {
+        font-size: 20px;
+    }
+
+    .container {
+        width: 80vw;
+    }
+
+    #result-desktop {
+        display: none;
+    }
+
+    #result-mobile {
+        display: block;
+    }
+
+    .result-style {
+        text-transform: uppercase;
+        background-color: #4C9654;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        transform: none;
+    }
+
+    #the-winner {
+        display: block;
+    }
+
+    #versus {
+        display: none;
+    }
+}
+
+@media (max-width: 300px) {
+    .container {
+        width: 100vw;
+    }
+
+    #batu-2 {
+        display: none;
+    }
+
+    #kertas-2 {
+        display: none;
+    }
+
+    #gunting-2 {
+        display: none;
+    }
+}
